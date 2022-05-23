@@ -1,0 +1,102 @@
+ @import url(href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet");
+
+ @import url('components/banner.css');
+ @import url('components/avatar.css');
+ @import url('components/button.css');
+ @import url('components/container.css');
+ @import url('components/card.css');
+
+
+ body{
+ 	font-family: Playfair Display', serif;'
+ 	font-size: 18px;
+ }
+h1,h2,h3{
+	font-family: 'Roboto', sans serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: pink;
+}
+
+}
+
+<div>
+.container {
+	width: 700px
+	margin: 100px auto
+	border: 30px pink;
+
+}
+
+.card-white {
+	background-color: beige;
+	padding: 40px;
+	margin: 80px;
+	border-radius: 5px
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	text-align: center;
+	border: 30px pink;
+	background: white;                         /* White background */
+    padding: 30px;                             /* Internal space */
+    radius: 4px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+
+.img-circle {
+	border-radius: 100%
+}
+
+.btn-blue{
+	background-color: rgb(79,70,223);
+	color: white;
+	padding: 15px 20px
+	border-radius: 10px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: Opx;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i{
+	font-size: 50px
+	color:rgb(200,200,200);
+}
+.list-inline i:hover {
+	color: pink
+
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+.@media (max-width: 500px) {
+	.container{
+		width: 400px
+	}
+}
+
+<div/>
+
